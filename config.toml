@@ -10,7 +10,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 [permalinks]
     post = "/:year-:month-:day/:slug/"
     # The :slug variable falls back to :title if a field named slug is not set in the YAML metadata of the post. You can set a fixed slug so that the link to the post is always fixed and you will have the freedom to update the title of your post.
-
+    # :year-:month-:day 用来区分不同时间的文章目录
+    # :slug 用来标记区分同一天内的不同文章（生成以slug为文件名的md）
+    # :title 文章实际标题，有了slug作为md文件名，就可以随意更改文章title
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/echobuf"
