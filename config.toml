@@ -10,15 +10,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 [permalinks]
     post = "/:year-:month-:day/:slug/"
     # The :slug variable falls back to :title if a field named slug is not set in the YAML metadata of the post. You can set a fixed slug so that the link to the post is always fixed and you will have the freedom to update the title of your post.
-[[menu.main]]
-    name = "About"
-    url = "/about/"
+
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/echobuf"
 [[menu.main]]
     name = "RSS"
     url="/index.xml"
+[[menu.main]]
+    name = "About"
+    url = "/about/"
 [[menu.main]]
     name = "SeeU~"
     url = "https://google.com"
